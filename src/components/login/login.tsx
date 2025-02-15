@@ -22,10 +22,9 @@ export default function Login() {
 
                     <hr className="border-slate-800 w-full" />
 
-                    <p>
-                        Ainda não tem uma conta?{' '}
-                    </p>
-                    <Link to={"/cadastro"} >Cadastre-se</Link>
+                    <p> Ainda não tem uma conta?{' '} </p>
+                    <p><Link to="/cadastro" className="text-indigo-800 hover:underline">Cadastre-se</Link></p>
+                    
                 </form>
                 <div className="fundoLogin hidden lg:block"></div>
             </div>
