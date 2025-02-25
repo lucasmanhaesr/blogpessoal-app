@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './Cadastro.css'
+import './cadastro.css'
 import { useState, useEffect, ChangeEvent, FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Usuario from '../../models/Usuario'
