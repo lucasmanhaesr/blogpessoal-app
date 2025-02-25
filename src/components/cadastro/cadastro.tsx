@@ -15,7 +15,7 @@ export default function Cadastro() {
 
   const[confirmaSenha, setConfirmaSenha] = useState<string>("")
 
-  const [usuario, setUsuario] = useState<Usuario>({ id: 0, nome: '', usuario: '', senha: '', foto: '' })
+  const [usuario, setUsuario] = useState<Usuario>({} as Usuario)
   
   useEffect(() => {
     if (usuario.id !== 0){
