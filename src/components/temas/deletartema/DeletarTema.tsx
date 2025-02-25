@@ -92,8 +92,7 @@ export default function DeletarTema() {
                         Não
                     </button>
                     <button 
-                        className='w-full text-slate-100 bg-indigo-400 
-                                   hover:bg-indigo-600 flex items-center justify-center'
+                        className='w-full text-slate-100 bg-indigo-400 hover:bg-indigo-600 flex items-center justify-center'
                                    onClick={deletarTema}>
                         {isLoading ?
                             <RotatingLines

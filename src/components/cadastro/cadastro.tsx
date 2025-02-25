@@ -77,8 +77,8 @@ export default function Cadastro() {
             />
           </div>
           <div className="flex flex-col w-full">
-            <label htmlFor="usuario">Usuario</label>
-            <input type="text" id="usuario" name="usuario" placeholder="Usuario" className="border-2 border-slate-700 rounded p-2"
+            <label htmlFor="usuario">E-mail</label>
+            <input type="text" id="usuario" name="usuario" placeholder="example@example.com.br" className="border-2 border-slate-700 rounded p-2"
               value = {usuario.usuario}
               onChange={
                 (e: ChangeEvent<HTMLInputElement>) => 
